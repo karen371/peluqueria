@@ -1,0 +1,39 @@
+/* base.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap');
+
+/* Definir las variables de color */
+/* color palette for beauty salon */
+:root {
+  --primary-color: #99e000;
+
+  --text-color-primary: #D1D5DB;
+  --text-color-secondary: #E5E7EB;
+  --text-color-tertiary: #1E1E1E;
+
+  --background-color-primary: #1E1E1E;
+  --background-color-secondary: #111827;
+  --background-color-tertiary: #F9FAFB;
+
+  --complementary-color: #ccc;
+  --complementary-color-hover: #a3a3a4;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+  
+/* ===== 🔁 Reset base y box model ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== 🧍 Estilos del body ===== */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background-color-tertiary);
+  color: var(--text-color-tertiary);
+  line-height: 1.5;
+}
