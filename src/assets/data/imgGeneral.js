@@ -7,6 +7,6 @@ export const imagesGeneral = [
     {
         id: 2,
         name: 'Header salón',
-        url: '/src/assets/img/header.jpg',
+        url: '/src/assets/img/header.png',
     },
 ]
