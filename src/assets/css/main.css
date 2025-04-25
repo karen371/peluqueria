@@ -1,1 +1,12 @@
 @import './base.css';
+
+.backgraund-principal {
+    background-color: var(--background-color-tertiary);
+}
+
+.backgraund-color-principal{
+    background-color: var(--primary-color);
+}
+.backgraund-color-principal-hover{
+    background-color: var(--primary-color-active);
+}

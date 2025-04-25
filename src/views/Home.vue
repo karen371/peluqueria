@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100 py-12 px-4">
+  <div class="min-h-screen  py-12 px-4">
     <div class="max-w-7xl mx-auto">
       <h1 class="text-4xl font-bold text-center text-blue-600 mb-8">
         Welcome to Our Salon

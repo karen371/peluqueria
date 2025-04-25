@@ -5,14 +5,15 @@
 /* color palette for beauty salon */
 :root {
   --primary-color: #99e000;
+  --primary-color-active: #8cff00;
 
   --text-color-primary: #D1D5DB;
   --text-color-secondary: #E5E7EB;
   --text-color-tertiary: #1E1E1E;
 
-  --background-color-primary: #1E1E1E;
-  --background-color-secondary: #111827;
-  --background-color-tertiary: #F9FAFB;
+  --bg-color-primary: #1E1E1E;
+  --bg-color-secondary: #111827;
+  --bg-color-tertiary: #F9FAFB;
 
   --complementary-color: #ccc;
   --complementary-color-hover: #a3a3a4;
@@ -27,7 +28,7 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  border:0;
 }
 
 /* ===== 🧍 Estilos del body ===== */
@@ -35,5 +36,4 @@ body {
   font-family: var(--font-sans);
   background-color: var(--background-color-tertiary);
   color: var(--text-color-tertiary);
-  line-height: 1.5;
 }
