@@ -9,4 +9,9 @@ export const imagesGeneral = [
         name: 'Header salón',
         url: '/src/assets/img/header.png',
     },
+    {
+        id: 3,
+        name: 'Nuestra Historia',
+        url: '/src/assets/img/historia.png',
+    }
 ]
